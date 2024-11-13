@@ -34,3 +34,7 @@ body{
     color: white;
     height: 30px;
 }
+#elozo, #kovetkezo{
+    color: black;
+    background-color: lightblue;
+}
