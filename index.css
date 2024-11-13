@@ -33,8 +33,12 @@ body{
     background-color: orange;
     color: white;
     height: 30px;
+    margin-top: 15px;
 }
 #elozo, #kovetkezo{
     color: black;
     background-color: lightblue;
+}
+#kedvencek>h3{
+    text-align: center;
 }
