@@ -4,11 +4,15 @@
     text-align: center;
     background-color: bisque;
     margin: 100px auto;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
 }
 #idezetek{
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: gainsboro;
+    width: 500px;
 }
 #kedvencek{
     display: block;
@@ -24,4 +28,9 @@
 
 body{
     background-color: lightcyan;
+}
+#kedvenc{
+    background-color: orange;
+    color: white;
+    height: 30px;
 }

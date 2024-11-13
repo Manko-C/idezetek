@@ -55,7 +55,7 @@ elozo.addEventListener('click', function(){
 
 
 kovetkezo.addEventListener('click', function(){
-    if (hely != idezetek.length){
+    if (hely != idezetek.length-1){
         hely = hely +1;
         idezethely.innerText = "";
         szerzohely.innerText = "";
@@ -69,7 +69,7 @@ kedvencekgomb.addEventListener('click', function(){
     container.style.marginTop = "10px";
     let kedvenc = document.createElement("span");
     kedvenc.style.marginRight = "10px"
-    kedvenc.innerText = idezetek[hely].idezet;
+    kedvenc.innerText = idezetek[hely].idezet + "-";
     container.appendChild(kedvenc);
     let kedvencszerzo = document.createElement("span");
     kedvencszerzo.innerText = idezetek[hely].szerzo;
