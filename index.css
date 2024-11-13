@@ -1,0 +1,40 @@
+#mezo{
+    width: 750px;
+    height: auto;
+    text-align: center;
+    background-color: bisque;
+    margin: 100px auto;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+}
+#idezetek{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: gainsboro;
+    width: 500px;
+}
+#kedvencek{
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+#fejlec{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: lightcyan;
+}
+#kedvenc{
+    background-color: orange;
+    color: white;
+    height: 30px;
+}
+#elozo, #kovetkezo{
+    color: black;
+    background-color: lightblue;
+}
