@@ -1,0 +1,27 @@
+#mezo{
+    width: 750px;
+    height: auto;
+    text-align: center;
+    background-color: bisque;
+    margin: 100px auto;
+}
+#idezetek{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#kedvencek{
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+#fejlec{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: lightcyan;
+}
